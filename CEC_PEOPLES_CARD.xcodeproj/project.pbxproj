@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23DE40AD2888E16900EA50F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE40AC2888E16900EA50F5 /* AppDelegate.swift */; };
+		23DE40AF2888E16900EA50F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE40AE2888E16900EA50F5 /* SceneDelegate.swift */; };
+		23DE40B12888E16900EA50F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE40B02888E16900EA50F5 /* ViewController.swift */; };
+		23DE40B42888E16900EA50F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DE40B22888E16900EA50F5 /* Main.storyboard */; };
+		23DE40B72888E16900EA50F5 /* CEC_PEOPLES_CARD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23DE40B52888E16900EA50F5 /* CEC_PEOPLES_CARD.xcdatamodeld */; };
+		23DE40B92888E17000EA50F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DE40B82888E17000EA50F5 /* Assets.xcassets */; };
+		23DE40BC2888E17000EA50F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DE40BA2888E17000EA50F5 /* LaunchScreen.storyboard */; };
+		23DE40C72888E17000EA50F5 /* CEC_PEOPLES_CARDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE40C62888E17000EA50F5 /* CEC_PEOPLES_CARDTests.swift */; };
+		23DE40D12888E17000EA50F5 /* CEC_PEOPLES_CARDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE40D02888E17000EA50F5 /* CEC_PEOPLES_CARDUITests.swift */; };
+		23DE40D32888E17000EA50F5 /* CEC_PEOPLES_CARDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE40D22888E17000EA50F5 /* CEC_PEOPLES_CARDUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23DE40C32888E17000EA50F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DE40A12888E16900EA50F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23DE40A82888E16900EA50F5;
+			remoteInfo = CEC_PEOPLES_CARD;
+		};
+		23DE40CD2888E17000EA50F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DE40A12888E16900EA50F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23DE40A82888E16900EA50F5;
+			remoteInfo = CEC_PEOPLES_CARD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23DE40A92888E16900EA50F5 /* CEC_PEOPLES_CARD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEC_PEOPLES_CARD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DE40AC2888E16900EA50F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23DE40AE2888E16900EA50F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23DE40B02888E16900EA50F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23DE40B32888E16900EA50F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23DE40B62888E16900EA50F5 /* CEC_PEOPLES_CARD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CEC_PEOPLES_CARD.xcdatamodel; sourceTree = "<group>"; };
+		23DE40B82888E17000EA50F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23DE40BB2888E17000EA50F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23DE40BD2888E17000EA50F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DE40C22888E17000EA50F5 /* CEC_PEOPLES_CARDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEC_PEOPLES_CARDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DE40C62888E17000EA50F5 /* CEC_PEOPLES_CARDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEC_PEOPLES_CARDTests.swift; sourceTree = "<group>"; };
+		23DE40CC2888E17000EA50F5 /* CEC_PEOPLES_CARDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEC_PEOPLES_CARDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DE40D02888E17000EA50F5 /* CEC_PEOPLES_CARDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEC_PEOPLES_CARDUITests.swift; sourceTree = "<group>"; };
+		23DE40D22888E17000EA50F5 /* CEC_PEOPLES_CARDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEC_PEOPLES_CARDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23DE40A62888E16900EA50F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE40BF2888E17000EA50F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE40C92888E17000EA50F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23DE40A02888E16900EA50F5 = {
+			isa = PBXGroup;
+			children = (
+				23DE40AB2888E16900EA50F5 /* CEC_PEOPLES_CARD */,
+				23DE40C52888E17000EA50F5 /* CEC_PEOPLES_CARDTests */,
+				23DE40CF2888E17000EA50F5 /* CEC_PEOPLES_CARDUITests */,
+				23DE40AA2888E16900EA50F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23DE40AA2888E16900EA50F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23DE40A92888E16900EA50F5 /* CEC_PEOPLES_CARD.app */,
+				23DE40C22888E17000EA50F5 /* CEC_PEOPLES_CARDTests.xctest */,
+				23DE40CC2888E17000EA50F5 /* CEC_PEOPLES_CARDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23DE40AB2888E16900EA50F5 /* CEC_PEOPLES_CARD */ = {
+			isa = PBXGroup;
+			children = (
+				23DE40AC2888E16900EA50F5 /* AppDelegate.swift */,
+				23DE40AE2888E16900EA50F5 /* SceneDelegate.swift */,
+				23DE40B02888E16900EA50F5 /* ViewController.swift */,
+				23DE40B22888E16900EA50F5 /* Main.storyboard */,
+				23DE40B82888E17000EA50F5 /* Assets.xcassets */,
+				23DE40BA2888E17000EA50F5 /* LaunchScreen.storyboard */,
+				23DE40BD2888E17000EA50F5 /* Info.plist */,
+				23DE40B52888E16900EA50F5 /* CEC_PEOPLES_CARD.xcdatamodeld */,
+			);
+			path = CEC_PEOPLES_CARD;
+			sourceTree = "<group>";
+		};
+		23DE40C52888E17000EA50F5 /* CEC_PEOPLES_CARDTests */ = {
+			isa = PBXGroup;
+			children = (
+				23DE40C62888E17000EA50F5 /* CEC_PEOPLES_CARDTests.swift */,
+			);
+			path = CEC_PEOPLES_CARDTests;
+			sourceTree = "<group>";
+		};
+		23DE40CF2888E17000EA50F5 /* CEC_PEOPLES_CARDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23DE40D02888E17000EA50F5 /* CEC_PEOPLES_CARDUITests.swift */,
+				23DE40D22888E17000EA50F5 /* CEC_PEOPLES_CARDUITestsLaunchTests.swift */,
+			);
+			path = CEC_PEOPLES_CARDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23DE40A82888E16900EA50F5 /* CEC_PEOPLES_CARD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DE40D62888E17000EA50F5 /* Build configuration list for PBXNativeTarget "CEC_PEOPLES_CARD" */;
+			buildPhases = (
+				23DE40A52888E16900EA50F5 /* Sources */,
+				23DE40A62888E16900EA50F5 /* Frameworks */,
+				23DE40A72888E16900EA50F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEC_PEOPLES_CARD;
+			productName = CEC_PEOPLES_CARD;
+			productReference = 23DE40A92888E16900EA50F5 /* CEC_PEOPLES_CARD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23DE40C12888E17000EA50F5 /* CEC_PEOPLES_CARDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DE40D92888E17000EA50F5 /* Build configuration list for PBXNativeTarget "CEC_PEOPLES_CARDTests" */;
+			buildPhases = (
+				23DE40BE2888E17000EA50F5 /* Sources */,
+				23DE40BF2888E17000EA50F5 /* Frameworks */,
+				23DE40C02888E17000EA50F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23DE40C42888E17000EA50F5 /* PBXTargetDependency */,
+			);
+			name = CEC_PEOPLES_CARDTests;
+			productName = CEC_PEOPLES_CARDTests;
+			productReference = 23DE40C22888E17000EA50F5 /* CEC_PEOPLES_CARDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23DE40CB2888E17000EA50F5 /* CEC_PEOPLES_CARDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DE40DC2888E17000EA50F5 /* Build configuration list for PBXNativeTarget "CEC_PEOPLES_CARDUITests" */;
+			buildPhases = (
+				23DE40C82888E17000EA50F5 /* Sources */,
+				23DE40C92888E17000EA50F5 /* Frameworks */,
+				23DE40CA2888E17000EA50F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23DE40CE2888E17000EA50F5 /* PBXTargetDependency */,
+			);
+			name = CEC_PEOPLES_CARDUITests;
+			productName = CEC_PEOPLES_CARDUITests;
+			productReference = 23DE40CC2888E17000EA50F5 /* CEC_PEOPLES_CARDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23DE40A12888E16900EA50F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					23DE40A82888E16900EA50F5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					23DE40C12888E17000EA50F5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 23DE40A82888E16900EA50F5;
+					};
+					23DE40CB2888E17000EA50F5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 23DE40A82888E16900EA50F5;
+					};
+				};
+			};
+			buildConfigurationList = 23DE40A42888E16900EA50F5 /* Build configuration list for PBXProject "CEC_PEOPLES_CARD" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23DE40A02888E16900EA50F5;
+			productRefGroup = 23DE40AA2888E16900EA50F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23DE40A82888E16900EA50F5 /* CEC_PEOPLES_CARD */,
+				23DE40C12888E17000EA50F5 /* CEC_PEOPLES_CARDTests */,
+				23DE40CB2888E17000EA50F5 /* CEC_PEOPLES_CARDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23DE40A72888E16900EA50F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE40BC2888E17000EA50F5 /* LaunchScreen.storyboard in Resources */,
+				23DE40B92888E17000EA50F5 /* Assets.xcassets in Resources */,
+				23DE40B42888E16900EA50F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE40C02888E17000EA50F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE40CA2888E17000EA50F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23DE40A52888E16900EA50F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE40B72888E16900EA50F5 /* CEC_PEOPLES_CARD.xcdatamodeld in Sources */,
+				23DE40B12888E16900EA50F5 /* ViewController.swift in Sources */,
+				23DE40AD2888E16900EA50F5 /* AppDelegate.swift in Sources */,
+				23DE40AF2888E16900EA50F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE40BE2888E17000EA50F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE40C72888E17000EA50F5 /* CEC_PEOPLES_CARDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE40C82888E17000EA50F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE40D12888E17000EA50F5 /* CEC_PEOPLES_CARDUITests.swift in Sources */,
+				23DE40D32888E17000EA50F5 /* CEC_PEOPLES_CARDUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23DE40C42888E17000EA50F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23DE40A82888E16900EA50F5 /* CEC_PEOPLES_CARD */;
+			targetProxy = 23DE40C32888E17000EA50F5 /* PBXContainerItemProxy */;
+		};
+		23DE40CE2888E17000EA50F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23DE40A82888E16900EA50F5 /* CEC_PEOPLES_CARD */;
+			targetProxy = 23DE40CD2888E17000EA50F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23DE40B22888E16900EA50F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23DE40B32888E16900EA50F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23DE40BA2888E17000EA50F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23DE40BB2888E17000EA50F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23DE40D42888E17000EA50F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23DE40D52888E17000EA50F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23DE40D72888E17000EA50F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CEC_PEOPLES_CARD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mercedesmoore.CEC-PEOPLES-CARD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23DE40D82888E17000EA50F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CEC_PEOPLES_CARD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mercedesmoore.CEC-PEOPLES-CARD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23DE40DA2888E17000EA50F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mercedesmoore.CEC-PEOPLES-CARDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEC_PEOPLES_CARD.app/CEC_PEOPLES_CARD";
+			};
+			name = Debug;
+		};
+		23DE40DB2888E17000EA50F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mercedesmoore.CEC-PEOPLES-CARDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEC_PEOPLES_CARD.app/CEC_PEOPLES_CARD";
+			};
+			name = Release;
+		};
+		23DE40DD2888E17000EA50F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mercedesmoore.CEC-PEOPLES-CARDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CEC_PEOPLES_CARD;
+			};
+			name = Debug;
+		};
+		23DE40DE2888E17000EA50F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mercedesmoore.CEC-PEOPLES-CARDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CEC_PEOPLES_CARD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23DE40A42888E16900EA50F5 /* Build configuration list for PBXProject "CEC_PEOPLES_CARD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DE40D42888E17000EA50F5 /* Debug */,
+				23DE40D52888E17000EA50F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DE40D62888E17000EA50F5 /* Build configuration list for PBXNativeTarget "CEC_PEOPLES_CARD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DE40D72888E17000EA50F5 /* Debug */,
+				23DE40D82888E17000EA50F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DE40D92888E17000EA50F5 /* Build configuration list for PBXNativeTarget "CEC_PEOPLES_CARDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DE40DA2888E17000EA50F5 /* Debug */,
+				23DE40DB2888E17000EA50F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DE40DC2888E17000EA50F5 /* Build configuration list for PBXNativeTarget "CEC_PEOPLES_CARDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DE40DD2888E17000EA50F5 /* Debug */,
+				23DE40DE2888E17000EA50F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23DE40B52888E16900EA50F5 /* CEC_PEOPLES_CARD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23DE40B62888E16900EA50F5 /* CEC_PEOPLES_CARD.xcdatamodel */,
+			);
+			currentVersion = 23DE40B62888E16900EA50F5 /* CEC_PEOPLES_CARD.xcdatamodel */;
+			path = CEC_PEOPLES_CARD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23DE40A12888E16900EA50F5 /* Project object */;
+}
